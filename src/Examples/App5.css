@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+body {
+    background-color: #262626;
+    font-family: 'Montserrat', sans-serif;
+}
+.state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stateTitle {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.stateValue {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-weight: 500;
+}

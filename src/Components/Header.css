@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&&family=Russo+One&display=swap');
+
+.logo {
+    color: orange;
+    width: 5rem;
+    height: 5rem;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: auto;
+}
+
+header {
+    border-bottom: 2px rgb(124, 123, 123) solid;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+

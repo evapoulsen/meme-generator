@@ -1,0 +1,68 @@
+.getImages {
+    padding: 1.5rem;
+}
+
+.getImages div.row {
+    padding: 1rem;
+}
+
+input {
+    width: 100%;
+    align-items: center;
+}
+.submitButton {
+    text-align: center;
+}
+.newImage {
+    width: 100%;
+}
+
+button.newImage.btn.btn-warning {
+    color: whitesmoke;
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.memeDisplay {
+    text-align: center;
+    position: relative;
+}
+
+.memeImage {
+    max-width: 70vw;
+    min-width: 70vw;
+}
+
+.memeText {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
